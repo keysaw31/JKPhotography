@@ -4,7 +4,6 @@
 }
 
 
-
 body {
    margin: 0;
    padding: 0;
@@ -12,7 +11,6 @@ body {
    font-family: 'PlacidArmor';
    
 }
-
 
 /* Brand Logo */
 .logo {
@@ -30,9 +28,8 @@ nav {
    background-color: #fff;
    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
    z-index: 1000;
-   transition: top 0.3s; /* Add smooth transition effect */
+   transition: top 0.3s;
 }
-
 
 .logo img {
   
@@ -40,13 +37,14 @@ nav {
    height: 8em !important;
 }
 
+
 /* MENU BAR Drop Down */
 #menu-bar {
    position: fixed;
    top: 1em; 
    right: 3em; 
    font-size: 2em;
-   z-index: 2; /* Ensures it's above the other content */
+   z-index: 2; 
   
   
 }
@@ -78,7 +76,7 @@ nav {
    background-color: #f9f9f9;
    min-width: 160px;
    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-   z-index: 2; /* Ensures it's above the other content */
+   z-index: 2; 
    
 }
 
@@ -138,7 +136,7 @@ nav {
    display: flex;
    justify-content: center;
    align-items: center;
-   height: 100vh; /* Set to 100vh for full viewport height */
+   height: 100vh; 
    max-width: 1000vh;
 }
 
@@ -149,10 +147,10 @@ footer {
    color: #fff;
    text-align: center;   
    background: none;
-   position: fixed; /* This keeps it at the bottom of the screen */
+   position: fixed; 
    bottom: 0;
-   width: 100%; /* Makes it span the entire width */
-   z-index: 2; /* Ensures it's above the other content */
+   width: 100%; 
+   z-index: 2;
 }
 
 .footer-content {

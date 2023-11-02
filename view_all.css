@@ -1,0 +1,26 @@
+.album-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 500% !important;
+ 
+}
+#album-title {
+   top: 20%;
+}
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5em;
+    justify-items: center;
+   margin-top: -30%;
+}
+
+.photo img {
+    max-width: 100%;
+}
+
+
+.section-label-after {
+    margin-top: 1em;
+}

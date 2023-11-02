@@ -1,4 +1,5 @@
 const categories = ['events', 'products', 'portraits'];
+
 let currentCategoryIndex = 0;
 
 function changeCategory(indexChange) {
@@ -18,7 +19,9 @@ function changeCategory(indexChange) {
     document.getElementById('album-title').textContent = currentCategoryTitle;
     document.getElementById('album-image').src = `images/${currentCategory}1.jpg`;
 
-    // Adjust the view all link
+    
     const viewAllLink = document.querySelector('.view-all');
     viewAllLink.href = `view_all_${currentCategory}.html`;
+    localStorage.setItem('currentCategoryIndex', currentCategoryIndex);
+
 }

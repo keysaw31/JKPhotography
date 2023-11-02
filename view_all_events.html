@@ -7,20 +7,51 @@
     <link rel="icon" href="Images/JoeyKiesau.png" type="image/png">
     <link rel="stylesheet" href="album.css"> 
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="services.css">
-    <link rel="stylesheet" href="about.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="view_all.css">   
 </head>
 <body>
-    <div class="album-container">
-        <div class="album">
-            <!-- Add your content for the events album -->
-            <!-- For example: -->
-            <h2 id="album-title">Events Album</h2>
-            <a href="events_image1.html">Image 1</a>
-            <a href="events_image2.html">Image 2</a>
-            <!-- Add more images as needed -->
+    <nav>
+        <div class="top-bar">
+            <div class="logo">
+                <a href="album.html"> 
+                    <img src="Images/JoeyKiesau Brand Logo.png" alt="JoeyKiesau Logo">
+                </a>
+            </div>          
         </div>
+    </nav>
+
+    <div class="album-container">
+        <h2 id="album-title">Events</h2>
+    </div>   
+    <div class="photo-grid">
+      <div class="photo">
+         <img class="photos" src="Images/events2.jpg" alt="Event image 2">
+      </div>
+      <div class="photo">
+         <img class="photos" src="Images/events3.jpg" alt="Event image 3">
+      </div>
+      <div class="photo">
+         <img class="photos" src="Images/events4.jpg" alt="Event image 4">
+      </div>
+   </div>
+   <footer>
+    <div class="footer-content">
+        <div class="copyright">© JoeyKiesau</div>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/joey-kiesau/" target="_blank"><img src="Images/linkedin-color-svgrepo-com.svg" alt="LinkedIn"></a>            
+            <span>|</span>
+            <a href="https://github.com/keysaw31" target="_blank"><img src="Images/github-142-svgrepo-com.svg" alt="Github Logo"></a>
+        </div>
+   
     </div>
+</footer>  
+<script>
+    
+    const storedCategoryIndex = localStorage.getItem('currentCategoryIndex');
+    if (storedCategoryIndex !== null) {
+        changeCategory(parseInt(storedCategoryIndex));
+    }
+</script>
+<script src="script.js"></script>
 </body>
 </html>
