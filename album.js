@@ -1,4 +1,4 @@
-const categories = ['events', 'products', 'landscape'];
+const categories = ['events', 'products', 'landscapes'];
 
 let currentCategoryIndex = 0;
 
