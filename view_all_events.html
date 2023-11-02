@@ -13,10 +13,22 @@
     <nav>
         <div class="top-bar">
             <div class="logo">
-                <a href="album.html"> 
+                <a href="index.html">
                     <img src="Images/JoeyKiesau Brand Logo.png" alt="JoeyKiesau Logo">
                 </a>
-            </div>          
+            </div>
+            <div class="container" id="menu-bar" onclick="toggleMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>                
+            <div class="menu-dropdown" id="menuDropdown">
+                <a href="#Banner-background">Home</a>
+                <a href="#about-section">About</a>
+                <a href="#services-section">Services</a>
+                <a href="#albums-section">Albums</a>
+                <a href="#contact-section">Contact</a>
+            </div>
         </div>
     </nav>
 
@@ -53,5 +65,6 @@
     }
 </script>
 <script src="script.js"></script>
+<script src="album.js"></script>
 </body>
 </html>

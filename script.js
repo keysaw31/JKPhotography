@@ -37,6 +37,24 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+document.addEventListener('DOMContentLoaded', function() {
+    var goBackLinks = document.querySelectorAll('.go-back');
+
+    goBackLinks.forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            var albumsSection = document.getElementById('albums-section');
+            var offset = 100; // Adjust the value as needed
+
+            window.scrollTo({
+                top: albumsSection.offsetTop - offset,
+                behavior: 'smooth'
+            });
+        });
+    });
+});
+
 
 
 
