@@ -1,0 +1,80 @@
+
+.underline {
+   position: absolute;
+   top: 300px; /* Adjust the value as needed */
+}
+
+
+/* -----------------------Images---------------------- */
+.servicesimages {
+   position: absolute;
+   bottom: 10%; /* Adjust as needed to move it higher */
+   right: 10%; /* Adjust as needed to move it to the left */
+   width: 30%; /* Adjust the width as needed */
+   height: 30%; /* Adjust the height as needed */
+}
+
+.image4, .image5, .image6 {
+   position: absolute;
+   width: 60%;
+   height: 100%;
+   border: 4em solid white; /* Add a white border */
+   border-radius: 3px; /* Add rounded edges */
+   border-top: 1em solid white;
+   border-left: 1em solid white; 
+   border-right: 1em solid white; 
+
+
+}
+.image4 {
+   bottom: -20%;
+   left: -180%;
+}
+
+.image5 {
+   bottom: -50%;
+   left: -50%;
+   transform: translate(-50%, -50%); /* Center the image both horizontally and vertically */
+}
+
+.image6 {
+   bottom:70%;
+   left: 10%;
+}
+
+.title {
+   position: absolute;
+   transform: translateX(-50%);
+   padding: 5px 10px; /* Add some padding */
+   border-radius: 5px; /* Add rounded edges */ 
+   text-align: center;
+}
+
+#events {
+   position: absolute;
+   bottom: -23%; /* Adjust the position of the title */
+   left: -147%;
+   font-size: 3.5em;
+   font-weight: bold;
+   color: black; /* Text color */
+   
+   
+}
+#products {
+   position: absolute;
+   bottom: 10%;
+   left: -50%;
+   font-size: 3.5em;
+   font-weight: bold;
+   color: black; /* Text color */
+   
+}
+#protraits {
+   position: absolute;
+   bottom: 66%;
+   left: 42.7%;
+   font-size: 3.5em;
+   font-weight: bold;
+   color: black; /* Text color */
+   
+}

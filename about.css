@@ -1,0 +1,106 @@
+
+main {
+   align-content: center; /* Adjust the value as needed */
+   
+}
+
+.line {
+   width: 400px; /* Adjust the width as needed */
+   height: 2px;
+   background-color: #000;
+   margin: 20px auto;
+}
+/* -----------------------JoeyKiesau---------------------- */
+.joeykiesau {
+   position: absolute;
+   bottom: 350px; /* Adjust as needed */
+   left: 130px; /* Adjust as needed */
+   text-align: left;
+   font-size: 1.3em;
+}
+
+.joeykiesau h1 {
+   position: absolute;
+   margin: 0;
+   padding: 0;
+   bottom: 30%;
+   font-size: 3em;
+ 
+}
+
+.joeykiesau p {
+   position: absolute;
+   max-width: 15em; /* Set a maximum width for the paragraph */
+   margin: auto; /* Center the paragraph */
+   margin-left: -.2em; /* Adjust as needed */
+   margin-top: -1em;
+  
+}
+
+/* -----------------------JoeyKiesauPhotography---------------------- */
+.joeykiesauphotography {
+   position: absolute;
+   bottom: 370px; /* Adjust as needed */
+   left: 450px; /* Adjust as needed */
+   text-align: left;
+   font-size: 1.3em;
+}
+
+.joeykiesauphotography h1 {
+   margin: 0;
+   padding: 0;
+   margin-bottom: -.45em;
+   font-size: 3em;
+ 
+}
+
+.joeykiesauphotography p {   
+   max-width: 17em; /* Set a maximum width for the paragraph */
+   margin: auto; /* Center the paragraph */   
+   margin-top: -1em;
+  
+}
+
+.joeykiesauphotography span {
+   font-size: 1.3em; /* Adjust the font size as needed */
+   font-weight: bold; /* Make the text bold */
+   display: inline-block; /* Change from 'block' to 'inline-block' */
+   margin-right: 0.2em; /* Adjust the margin as needed */
+}
+
+/* -----------------------Images---------------------- */
+.joeykiesauphotographyimages {
+   position: absolute;
+   bottom: 10%; /* Adjust as needed to move it higher */
+   right: 10%; /* Adjust as needed to move it to the left */
+   width: 20%; /* Adjust the width as needed */
+   height: 40%; /* Adjust the height as needed */
+}
+
+.image1, .image2, .image3 {
+   position: absolute;
+}
+
+.image1 {
+   bottom: 20%;
+   left: -90%;
+   width: 100%; /* Adjust the width as needed */
+   position: absolute;
+}
+
+.image2 {
+   bottom: 70%;
+   left: 10%; /* Center the image horizontally */
+   transform: translateX(-50%); /* Center the image horizontally */
+   width: 70%; /* Adjust the width as needed */
+   position: absolute;
+}
+
+.image3 {
+   bottom: 0;
+   right: 0;
+   width: 70%; /* Adjust the width as needed */
+   position: absolute;
+}
+
+

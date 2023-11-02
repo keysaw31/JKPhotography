@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JK Photography Project</title>
+    <link rel="icon" href="Images/JoeyKiesau.png" type="image/png">
+    <link rel="stylesheet" href="album.css"> 
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+   <div class="album-container">
+    <img class="albums-title" src="images/albums-title.jpg" alt="Albums">
+
+        <div class="album">
+            <div class="arrow arrow-left" onclick="changeCategory(-1)">Previous</div>
+            <img id="album-image" src="images/events1.jpg" alt="Events 1">
+            <div class="arrow arrow-right" onclick="changeCategory(1)">Next</div>
+            <h2 id="album-title">Events</h2>
+            <a href="view_all_events.html" class="view-all" target="_blank">View All</a>
+
+        </div>
+    </div>
+
+    <script src="album.js"></script>
+</body>
+</html>

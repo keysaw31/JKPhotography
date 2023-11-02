@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JK Photography Project</title>
+    <link rel="icon" href="Images/JoeyKiesau.png" type="image/png">
+    <link rel="stylesheet" href="about.css"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="services.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <nav>
+        <div class="top-bar">
+            <div class="logo">
+                <a href="index.html"> <!-- Replace with your homepage URL -->
+                    <img src="Images/JoeyKiesau Brand Logo.png" alt="JoeyKiesau Logo">
+                </a>
+            </div>
+            <div class="container" id="menu-bar" onclick="toggleMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>                
+            <div class="menu-dropdown" id="menuDropdown">
+                <a href="#Banner-background">Home</a>
+                <a href="#about-section">About</a>
+                <a href="#services-section">Services</a>
+                <a href="#albums-section">Albums</a>
+                <a href="#contact-section">Contact</a>
+            </div>
+        </div>
+    </nav>
+    
+        <main>
+            <!-- Banner Section -->
+            <div class="background-image-section" id="Banner-background">
+                <div class="hero-banner">
+                    <div class="banner-content">
+                        <h1>JK Photography</h1>
+                        <p class="quote">Every photo Has a Story</p>
+                        <p class="quote2">Each story Has a Lesson</p>
+                    </div>
+                </div>
+            </div>
+        <section id="about-section">
+            <iframe src="about.html" frameborder="0" width="100%" height="1000"></iframe>
+        </section>
+            <!-- Add the iframe for the About section -->
+        <section id="services-section" >
+                <iframe src="services.html" frameborder="0" width="100%" height="1000"></iframe>
+        </section>
+        <section id="albums-section" >
+            <iframe src="album.html" frameborder="0" width="100%" height="1000"></iframe>
+        </section>
+           
+        </main>
+<script src="script.js"></script>
+</body>
+<footer>
+    <div class="footer-content">
+        <div class="copyright">© JoeyKiesau</div>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/joey-kiesau/" target="_blank"><img src="Images/linkedin-color-svgrepo-com.svg" alt="LinkedIn"></a>            
+            <span>|</span>
+            <a href="https://github.com/keysaw31" target="_blank"><img src="Images/github-142-svgrepo-com.svg" alt="Github Logo"></a>
+        </div>
+   
+    </div>
+</footer>  
+</html>
