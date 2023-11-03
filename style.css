@@ -151,14 +151,16 @@ footer {
    position: fixed; 
    bottom: 0;
    width: 100%; 
-   z-index: 2;
+position: relative;
+ 
 }
 
 .footer-content {
    display: flex;
    justify-content: space-between;
    align-items: center;
- } 
+
+} 
  .footer-content a {
    margin: 0 1em;
    text-decoration: none;
