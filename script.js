@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             var offset = targetId === 'about-section' ? 300 : 
             targetId === 'services-section' ? 300 : 
-            targetId === 'albums-section' ? 100 : 0; 
+            targetId === 'albums-section' ? 180 : 0; 
 
             window.scrollTo({
                 top: targetElement.offsetTop + offset,

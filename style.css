@@ -9,6 +9,7 @@ body {
    padding: 0;
    background: #C4DFFF;
    font-family: 'PlacidArmor';
+   overflow-y:inherit;
    
 }
 
