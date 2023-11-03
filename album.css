@@ -12,8 +12,8 @@
 }
 
 #album-image {
-   width: 400px; /* Set a fixed width */
-   height: 400px; /* Set a fixed height */
+   width: 400px; 
+   height: 400px; 
    border: 2em solid #fff;
    border-bottom: 7em solid #fff;
    border-radius: 8px;
@@ -62,7 +62,6 @@
 }
 
 
-
 /* MOBILE VERSION */
 @media screen and (max-width: 768px) {
    .album-container {
@@ -70,15 +69,15 @@
        justify-content: center;
        align-items: center;
        margin-top: 5%;
-       flex-wrap: wrap; /* Allow albums to wrap on smaller screens */
+       flex-wrap: wrap; 
        margin-top: 20em;
    }
 
    
    #album-image {
-       width: 100%; /* Make image fill its container */
-       max-width: 250px; /* Set a maximum width */
-       height: auto; /* Maintain aspect ratio */
+       width: 100%; 
+       max-width: 250px; 
+       height: auto; 
        border: 1em solid #fff;
        border-bottom: 5em solid white;
        border-radius: 8px;
@@ -103,10 +102,8 @@
    
    .arrow-right {
        right: -15%;
-   }
-   
+   } 
 
-   
    .view-all {
        font-size: 1.5em;
        position: absolute;
@@ -139,6 +136,5 @@
       left: 50%;
       transform: translateX(-50%);
       width: 100%;
-
   }
 }

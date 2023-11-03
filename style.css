@@ -1,24 +1,21 @@
 @font-face {
    font-family: 'PlacidArmor';
-   src: url('Font/PlacidArmor-Medium.otf') format('otf'); /* Adjust the path as needed */
+   src: url('Font/PlacidArmor-Medium.otf') format('otf'); 
 }
-
 
 body {
    margin: 0;
    padding: 0;
    background: #C4DFFF;
    font-family: 'PlacidArmor';
-   overflow-y:inherit;
-   
+   overflow-y: inherit;
 }
 
 /* Brand Logo */
 .logo {
    position: absolute;
-   top: 1em; /* Adjust as needed */
-   left: 3em; /* Adjust as needed */
- 
+   top: 1em; 
+   left: 3em; 
    
 }
 
@@ -171,20 +168,8 @@ position: relative;
    height: auto;
  }
 
- @font-face {
-   font-family: 'PlacidArmor';
-   src: url('Font/PlacidArmor-Medium.otf') format('otf'); /* Adjust the path as needed */
-}
 
-body {
-   margin: 0;
-   padding: 0;
-   background: #C4DFFF;
-   font-family: 'PlacidArmor';
-   overflow-y: inherit;
-}
-
-/* Add a media query for screens up to 768px wide */
+/* Mobile Layout */
 @media screen and (max-width: 768px) {
    .logo {
       top: 1em;
@@ -231,8 +216,6 @@ body {
    .footer-content a {
       margin: 0.5em 0;
    }
-
-
 }
 
-/* Add any additional styles specific to smaller screens below this point */
+

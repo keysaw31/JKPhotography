@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
 document.addEventListener('DOMContentLoaded', function() {
     var goBackLinks = document.querySelectorAll('.go-back');
 

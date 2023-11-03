@@ -26,6 +26,7 @@
 
 
 }
+
 .image4 {
    bottom: -20%;
    left: -180%;
@@ -69,6 +70,7 @@
    color: black; 
    
 }
+
 #protraits {
    position: absolute;
    bottom: 66%;
@@ -78,6 +80,8 @@
    color: black; 
    
 }
+
+
 /* MOBILE VERSION */
 @media screen and (max-width: 768px) {
    .underline {

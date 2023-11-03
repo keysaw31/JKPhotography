@@ -31,7 +31,6 @@
             </div>
         </div>
     </nav>
-
     <div class="albums-container">
         <h2 id="album-title">Events</h2>
     </div>   
@@ -45,8 +44,7 @@
       <div class="photo">
          <img class="photos" src="Images/events4.jpg" alt="Event image 4">
       </div>
-   </div>
-   
+   </div>   
    <footer>
     <div class="footer-content">
         <div class="copyright">© JoeyKiesau</div>
@@ -54,12 +52,10 @@
             <a href="https://www.linkedin.com/in/joey-kiesau/" target="_blank"><img src="Images/linkedin-color-svgrepo-com.svg" alt="LinkedIn"></a>            
             <span>|</span>
             <a href="https://github.com/keysaw31" target="_blank"><img src="Images/github-142-svgrepo-com.svg" alt="Github Logo"></a>
-        </div>
-   
+        </div>   
     </div>
 </footer>  
-<script>
-    
+<script>    
     const storedCategoryIndex = localStorage.getItem('currentCategoryIndex');
     if (storedCategoryIndex !== null) {
         changeCategory(parseInt(storedCategoryIndex));
