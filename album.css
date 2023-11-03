@@ -92,7 +92,7 @@
    }
    
    .arrow {
-       width: 5em;
+       width: 4em;
        height: 1em;
        position: absolute;
        top: -10%;
@@ -104,11 +104,11 @@
    }
    
    .arrow-left {
-       left: -5%;
+       left: -10%;
    }
    
    .arrow-right {
-       right: -15%;
+       right: -10%;
    } 
 
    .view-all {
@@ -127,12 +127,14 @@
    .albums-title {
        text-align: center;
        position: absolute;
-       top: 6%;
+       top: 15%;
        left: 50%;
        transform: translateX(-50%);
        font-size: 1.5em !important;
        font-weight: bold;
        width: 100%;
+       height: 10em;
+       width: 10em;
    }
 
    #album-title {

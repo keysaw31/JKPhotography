@@ -158,7 +158,7 @@ footer {
    position: fixed; 
    bottom: 0;
    width: 100%; 
-position: relative;
+   position: relative;
  
 }
 
@@ -187,13 +187,20 @@ position: relative;
     
    }
    .logo img {
-      width: 4em;
-      height: 4em !important;
+      width: 3em;
+      height: 3em !important;
   }
    #menu-bar {
       top: 1em;
       right: 1em;
-      font-size: 1.5em;
+      font-size: 1em;
+   }
+
+   .brand-name {
+      text-align: center;
+      margin: 0;
+      font-size: 2em; 
+      color: white;
    }
 
    .menu-dropdown {
