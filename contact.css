@@ -76,13 +76,32 @@
 /* MOBILE VERSION */
 @media screen and (max-width: 768px) {
    .contact-title {
-       top: 30%; 
+       top: 12%; 
        left: 50%; 
        transform: translate(-50%, -50%);
        width: 20em;
        height: 20em;
    }
-
+ 
+   .paragraph1 {
+      position: absolute;
+      max-width: 15em; 
+      margin: 0; 
+      top: 12%;
+      left: 15%;
+      font-size: 1.2em;
+      text-align: center;
+   }   
+   .paragraph2 {
+      position: absolute;
+      max-width: 15em; 
+      margin: 0; 
+      top: 20%;
+      left: 20%;
+      font-size: 1.2em;
+      text-align: center;
+   }
+   
    .contact-form {
        width: 80%; 
        margin: auto; 
@@ -93,30 +112,19 @@
    }
 
    .contact-form form label {
-       font-size: 1.5em; /* Adjusted font size */
+       font-size: 1.5em; 
       
-       display: block; /* Set to block for full width */
+       display: block; 
    }
 
    .contact-form form input,
    .contact-form form textarea {
-       padding: 6px; /* Adjusted padding */
-       margin-bottom: 10px; /* Adjusted margin */
+       padding: 6px; 
+       margin-bottom: 10px; 
    }
 
    .contact-form form input[type="submit"] {
-       font-size: 1.5em; /* Adjusted font size */
-       padding: 8px 16px; /* Adjusted padding */
-   }
-
-   .paragraph1,
-   .paragraph2 {
-       position: static; /* Reset position */
-       max-width: none; /* Reset max width */
-       margin: 10px 0; /* Adjusted margin */
-       top: auto; /* Reset top */
-       left: auto; /* Reset left */
-       font-size: 1.2em; /* Adjusted font size */
-       text-align: center; /* Center the text */
+       font-size: 1.5em; 
+       padding: 8px 16px; 
    }
 }
