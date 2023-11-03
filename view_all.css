@@ -24,3 +24,21 @@
 .section-label-after {
     margin-top: 1em;
 }
+ /* Mobile Layout */
+ @media screen and (max-width: 768px) {
+    .albums-container {
+        top: auto !important; /* Reset the top property */
+        margin-top: 5em;
+    }
+
+    #album-title {
+        top: 5%; /* Adjusted top position */
+        text-align: center;
+    }
+
+    .photo-grid {
+        grid-template-columns: repeat(1, 1fr); /* Change to a single column layout */
+        gap: 1em; /* Increase the gap for better spacing */
+        margin-top: 10%; /* Adjusted margin */
+    }
+}

@@ -4,7 +4,7 @@
    justify-content: center;
    align-items: center;
    position: absolute;
-   top: 35%;
+   top: 45%;
    left: 20%;
    transform: translate(-50%, -50%);
 }
@@ -18,7 +18,7 @@
    color: black;
    width: 30%;
    margin: auto;
-   margin-top: 10%;
+   margin-top: 20%;
    margin-left: 50%;
 }
 .contact-form form {
@@ -58,7 +58,7 @@
    position: absolute;
    max-width: 15em; 
    margin: 0; 
-   top: 40%;
+   top: 50%;
    left: 10%;
    font-size: 1.5em;
 }
@@ -66,7 +66,57 @@
    position: absolute;
    max-width: 20em; 
    margin: 0; 
-   top: 48%;
+   top: 58%;
    left: 10%;
    font-size: 1.5em;
+}
+
+
+/* MOBILE VERSION */
+/* MOBILE VERSION */
+@media screen and (max-width: 768px) {
+   .contact-title {
+       top: 30%; /* Adjusted top position */
+       left: 50%; /* Center horizontally */
+       transform: translate(-50%, -50%);
+       width: 20em;
+       height: 20em;
+   }
+
+   .contact-form {
+       width: 80%; /* Adjusted width */
+       margin: auto; /* Center the form */
+       margin-top: 17em ; /* Adjusted top margin */
+       margin-left: auto; /* Reset left margin */
+       align-items: center;
+
+   }
+
+   .contact-form form label {
+       font-size: 1.5em; /* Adjusted font size */
+      
+       display: block; /* Set to block for full width */
+   }
+
+   .contact-form form input,
+   .contact-form form textarea {
+       padding: 6px; /* Adjusted padding */
+       margin-bottom: 10px; /* Adjusted margin */
+   }
+
+   .contact-form form input[type="submit"] {
+       font-size: 1.5em; /* Adjusted font size */
+       padding: 8px 16px; /* Adjusted padding */
+   }
+
+   .paragraph1,
+   .paragraph2 {
+       position: static; /* Reset position */
+       max-width: none; /* Reset max width */
+       margin: 10px 0; /* Adjusted margin */
+       top: auto; /* Reset top */
+       left: auto; /* Reset left */
+       font-size: 1.2em; /* Adjusted font size */
+       text-align: center; /* Center the text */
+   }
 }

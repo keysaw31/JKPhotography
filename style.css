@@ -170,3 +170,69 @@ position: relative;
    width: 30px; 
    height: auto;
  }
+
+ @font-face {
+   font-family: 'PlacidArmor';
+   src: url('Font/PlacidArmor-Medium.otf') format('otf'); /* Adjust the path as needed */
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   background: #C4DFFF;
+   font-family: 'PlacidArmor';
+   overflow-y: inherit;
+}
+
+/* Add a media query for screens up to 768px wide */
+@media screen and (max-width: 768px) {
+   .logo {
+      top: 1em;
+      left: 1em;
+    
+   }
+   .logo img {
+      width: 4em;
+      height: 4em !important;
+  }
+   #menu-bar {
+      top: 1em;
+      right: 1em;
+      font-size: 1.5em;
+   }
+
+   .menu-dropdown {
+      top: 4em;
+      right: 1em;
+   }
+
+   .banner-content h1 {
+      font-size: 2.5em;
+   }
+
+   .banner-content p {
+      font-size: 1.2em;
+   }
+
+   .quote2 {
+      font-size: 1em !important;
+   }
+
+   .background-image-section {
+      max-width: 100%;
+   }
+
+   .footer-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+   }
+
+   .footer-content a {
+      margin: 0.5em 0;
+   }
+
+
+}
+
+/* Add any additional styles specific to smaller screens below this point */

@@ -104,3 +104,79 @@ main {
 }
 
 
+/* MOBILE VERSION */
+@media screen and (max-width: 768px) {
+   main {
+       align-content: center;    
+   }
+
+   .line {
+       width: 80%;
+       height: 2px;
+       background-color: #000;
+       margin: 20px auto;
+   }
+
+   .joeykiesau,
+   .joeykiesauphotography {
+       position: static;
+       text-align: center;
+       margin-bottom: 20px;
+   }
+
+   .joeykiesau h1,
+   .joeykiesauphotography h1 {
+       position: static;
+       font-size: 2em;
+       margin-bottom: 0.2em;
+   }
+
+   .joeykiesau p,
+   .joeykiesauphotography p {
+       position: static;
+       max-width: none;
+       margin: auto;
+       text-align: center;
+   }
+
+   .joeykiesauphotography span {
+       display: block;
+       margin: 10px auto;
+   }
+
+   .joeykiesauphotographyimages {
+       position: static;
+      
+       margin: 20px;
+   }
+
+   .image1, .image2, .image3 {
+       position: absolute;
+      
+   
+   }
+
+   .image1 {
+       bottom: 35%;
+       left: 20%;
+       transform: translateX(0%);
+       width: 60%;
+   }
+
+   .image2 {
+      bottom: 17%;
+       left: 30%;
+       transform: translateX(-50%);
+       width: 40%;
+   }
+
+   .image3 {
+       bottom: 8%;
+       right: 0;
+       width: 40%;
+       left: 60%;
+       transform: translateX(-50%);
+   }
+}
+
+

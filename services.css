@@ -78,3 +78,55 @@
    color: black; 
    
 }
+/* MOBILE VERSION */
+@media screen and (max-width: 768px) {
+   .underline {
+       position: static;
+       margin-top: 1em;
+       text-align: center;
+       width: 20em;
+       height: 20em;
+       margin: 0 auto;
+   }
+
+   .servicesimages {
+       position: static;
+       width: 70%;
+       margin: 20px auto;
+       top: 100% !important;
+       margin-top: -9em;
+   
+   }
+
+   .image4, .image5, .image6 {
+       position: static;
+       width: 12em;
+       height: 12em;
+       border: none;
+       border-radius: 0;
+       transform: none;
+       margin: 20px auto;
+      
+   }
+
+   .title {
+       position: static;
+       transform: none;
+       padding: 0;
+       border-radius: 0;
+       text-align: center;
+      margin-top: -.5em !important;
+   }
+
+   #events, #products, #protraits {
+       position: static;
+       bottom: auto;
+       left: auto;
+       font-size: 2em;
+       font-weight: bold;
+       color: black;
+       text-align: center;
+       margin-top: 10px;
+   }
+}
+
