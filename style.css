@@ -14,38 +14,46 @@ body {
 /* Brand Logo */
 .logo {
    position: absolute;
-   top: 1em; 
+   top: .4em; 
    left: 3em; 
    
 }
+.logo img {  
+   width: 4em;
+   height: 4em !important;
+}
+
 
 nav {
    position: fixed;
    top: 0;
    width: 100%;
-   background-color: #fff;
-   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+   background-color: #C4DFFF;  
    z-index: 1000;
    transition: top 0.3s;
+   padding: 1em;
 }
 
-.logo img {
-  
-   width: 8em;
-   height: 8em !important;
+.brand-name {
+   text-align: center;
+   margin: 0;
+   font-size: 2em; 
+   color: white;
 }
+
+
 
 
 /* MENU BAR Drop Down */
 #menu-bar {
    position: fixed;
-   top: 1em; 
+   top: .5em; 
    right: 3em; 
    font-size: 2em;
-   z-index: 2; 
-  
+   z-index: 2;   
   
 }
+
 .bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
@@ -117,10 +125,12 @@ nav {
    font-size: 6em;
    white-space: nowrap;
    text-align: center;
+   font-weight: 100;
 }
 .banner-content p {
    font-size: 3em;   
    text-align: center;
+   font-weight: 100;
 }
 .quote2 {
    font-size: 2em !important;   
