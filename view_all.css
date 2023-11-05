@@ -21,9 +21,7 @@
     max-width: 100%;
 }
 
-.section-label-after {
-    margin-top: 1em;
-}
+
 
  /* Mobile Layout */
  @media screen and (max-width: 768px) {
@@ -33,7 +31,7 @@
     }
 
     #album-title {
-        top: 5%; 
+        top: 10%; 
         text-align: center;
     }
 
